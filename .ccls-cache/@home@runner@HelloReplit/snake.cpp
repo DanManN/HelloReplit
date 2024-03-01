@@ -132,8 +132,7 @@ void Logic() {
 				prevX = tempX;
 				prevY = tempY;
 			} else {
-				std::cout << "Error: Accessing tailX or tailY out of bounds!"
-									<< std::endl;
+				std::cout << "Error: Accessing tailX or tailY out of bounds!" << std::endl;
 				break;
 			}
 		}
@@ -174,8 +173,7 @@ void Logic() {
 				break;
 			}
 		} else {
-			std::cout << "Error: Accessing tailX or tailY out of bounds!"
-								<< std::endl;
+			std::cout << "Error: Accessing tailX or tailY out of bounds!" << std::endl;
 			break;
 		}
 	}
